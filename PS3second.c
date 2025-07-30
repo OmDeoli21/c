@@ -26,8 +26,7 @@ int main(){
     {
         printf("tax to be paid by you : %.1f", income*0.3);
     }
-vuliutgbvfjcykyi
 
     return 0;
-}jtvtj
-gjyb
+}
+//codewithharry practice set 3 q2
