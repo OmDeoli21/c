@@ -59,27 +59,29 @@
 
 
 
-//Write a program to find greatest of four numbers entered by the user.
+// //Write a program to find greatest of four numbers entered by the user.
 
-#include <stdio.h>
-int main(){
-    printf("Enter four numbers:\n");
-    int a,b,c,d ;
-    scanf("%d %d %d %d", &a,&b,&c,&d);
+// #include <stdio.h>
+// int main(){
+//     printf("Enter four numbers:\n");
+//     int a,b,c,d ;
+//     scanf("%d %d %d %d", &a,&b,&c,&d);
 
-    if(a>b && a>c && a>d ){
-        printf("%d is the greatest number you entered",a);
-    }
+//     if(a>b && a>c && a>d ){
+//         printf("%d is the greatest number you entered",a);
+//     }
 
-    if(b>a && b>c && b>d ){
-        printf("%d is the greatest number you entered",b);
-    }
-    if(c>b && c>a && c>d ){
-        printf("%d is the greatest number you entered",c);
-    }
-    if(d>b && d>c && d>a ){
-        printf("%d is the greatest number you entered",d);
-    }
-    return 0;
-}
+//     if(b>a && b>c && b>d ){
+//         printf("%d is the greatest number you entered",b);
+//     }
+//     if(c>b && c>a && c>d ){
+//         printf("%d is the greatest number you entered",c);
+//     }
+//     if(d>b && d>c && d>a ){
+//         printf("%d is the greatest number you entered",d);
+//     }
+//     return 0;
+// }
+
+
 
