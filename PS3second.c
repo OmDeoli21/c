@@ -37,22 +37,22 @@
 //find a leap year
 
 
-#include <stdio.h>
-int main(){
-    printf("enter a year: \n");
-    int year;
-    scanf("%d", &year);
+// #include <stdio.h>
+// int main(){
+//     printf("enter a year: \n");
+//     int year;
+//     scanf("%d", &year);
 
-    if((year%4==0 && year%100 !=0) || year%400==0  ){
-        printf("this is a leap year !");
+//     if((year%4==0 && year%100 !=0) || year%400==0  ){
+//         printf("this is a leap year !");
 
-    }
-    else{
-        printf("not a leap year");
-    }
+//     }
+//     else{
+//         printf("not a leap year");
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
 
 
 
@@ -61,22 +61,25 @@ int main(){
 
 //Write a program to find greatest of four numbers entered by the user.
 
-// #include <stdio.h>
-// int main(){
-//     printf("Enter four numbers:\n");
-//     int a,b,c,d ;
-//     scanf("%d %d %d %d", &a,&b,&c,&d);
+#include <stdio.h>
+int main(){
+    printf("Enter four numbers:\n");
+    int a,b,c,d ;
+    scanf("%d %d %d %d", &a,&b,&c,&d);
 
-//     if(a>b &&  ){
+    if(a>b && a>c && a>d ){
+        printf("%d is the greatest number you entered",a);
+    }
 
-
-
-//     }
-
-
-
-
-//     return 0;
-// }
-
+    if(b>a && b>c && b>d ){
+        printf("%d is the greatest number you entered",b);
+    }
+    if(c>b && c>a && c>d ){
+        printf("%d is the greatest number you entered",c);
+    }
+    if(d>b && d>c && d>a ){
+        printf("%d is the greatest number you entered",d);
+    }
+    return 0;
+}
 
