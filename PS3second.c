@@ -34,6 +34,7 @@
 
 
 //codewithharry problemset3 q4
+//find a leap year
 
 
 #include <stdio.h>
@@ -54,5 +55,28 @@ int main(){
 }
 
 
+
+
+
+
+//Write a program to find greatest of four numbers entered by the user.
+
+// #include <stdio.h>
+// int main(){
+//     printf("Enter four numbers:\n");
+//     int a,b,c,d ;
+//     scanf("%d %d %d %d", &a,&b,&c,&d);
+
+//     if(a>b &&  ){
+
+
+
+//     }
+
+
+
+
+//     return 0;
+// }
 
 
