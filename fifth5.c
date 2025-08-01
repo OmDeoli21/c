@@ -27,17 +27,33 @@
 
 
 
-/*[q]Write a program to print natural numbers from 10 to 20 when initial loop
-counter is initialized to 0*/
+// /*[q]Write a program to print natural numbers from 10 to 20 when initial loop
+// counter is initialized to 0*/
 
-#include <stdio.h>
-int main(){
-    int num=0;
-    while(num<=20){ 
-        if(num>=10){
-             printf("%d\n",num);      
-        }
-        num = num +1;
-} 
-    return 0;
-}
+// #include <stdio.h>
+// int main(){
+//     int num=0;              
+//     while(num<=20){                         //number max limit 20
+//         if(num>=10){                       //if num greater or equal to 10 then print the num
+//              printf("%d\n",num);          //then close if statement
+//         }                                //then num redefined as num=num+1
+//         num = num +1;
+// } 
+//     return 0;
+// }
+
+
+// /*[q]Write a C program using a while loop to print all even numbers from 1 to 50.*/
+
+// #include <stdio.h>
+// int main(){
+//     int i = 2;
+//     while(i<=50){
+//         printf("%d\n",i);
+//         i = i+2;
+//     }
+
+//     return 0;
+// }
+
+
