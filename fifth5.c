@@ -56,4 +56,19 @@
 //     return 0;
 // }
 
+/*Write a program that takes an integer input from the user and calculates the sum of its digits using a while loop.*/
 
+#include <stdio.h>
+int main(){
+    printf("Enter a integer: \n");
+    int a, sum = 0;
+    scanf("%d",&a);
+    while(a!=0){
+        sum = sum + (a%10);
+        a = a/10;
+    }
+    printf("sum of digits of input is : \n%d",sum);
+
+
+    return 0;
+}
