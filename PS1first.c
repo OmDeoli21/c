@@ -293,7 +293,7 @@ int main(){
     int a,mult = 1; 
     printf("Enter a number for knowing its factorial : \n");
     scanf("%d", &a);
-    while(1<=a){
+    while(1=a){
         mult = mult * a;
         a = a - 1;
     }
