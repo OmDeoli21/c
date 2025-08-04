@@ -286,17 +286,22 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-/*[q]Write a program to calculate factorial of a number*/
+// /*[q]Write a program to calculate factorial of a number*/
 
-#include<stdio.h>
-int main(){
-    int a,mult = 1; 
-    printf("Enter a number for knowing its factorial : \n");
-    scanf("%d", &a);
-    while(1=a){
-        mult = mult * a;
-        a = a - 1;
-    }
-    printf("%d",mult);
-    return 0;
-}
+// #include<stdio.h>
+// int main(){
+//     int a,mult = 1; 
+//     printf("Enter a number for knowing its factorial : \n");
+//     scanf("%d", &a);
+//     while(1=a){
+//         mult = mult * a;
+//         a = a - 1;
+//     }
+//     printf("%d",mult);
+//     return 0;
+//}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+

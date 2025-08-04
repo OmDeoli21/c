@@ -267,3 +267,18 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/*[q] write a program to print first n natural no.s using do while loop*/
+
+#include<stdio.h>
+int main(){
+    int a, i=1 ;
+    printf(" write a number : \n");
+    scanf("%d", &a);
+    do{ 
+        printf("%d\n",i);
+        i++;
+   
+    } while (i<=a);
+    
+    return 0;
+}
