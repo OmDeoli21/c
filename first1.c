@@ -284,12 +284,49 @@
 // }
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// #include <stdio.h>
+
+// int main() {
+//     int i;
+//     for(i = 1; i <= 100; i++) {
+//         printf("%d ", i);
+//     }
+//     return 0;
+// }   
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 #include <stdio.h>
 
 int main() {
-    int i;
-    for(i = 1; i <= 100; i++) {
-        printf("%d ", i);
+    int a, i = 2, isPrime = 1; 
+
+    printf("Enter a number: ");
+    scanf("%d", &a);  
+
+    if (a <= 1) {
+        printf("%d is not a prime number\n", a);
+        return 0;  
     }
+
+    while (i <= a / 2) { 
+        if (a % i == 0) {
+            isPrime = 0; 
+            break;
+        }
+        i++; 
+    }
+
+    if (isPrime)
+        printf("%d is a prime number\n", a);
+    else
+        printf("%d is not a prime number\n", a);
+
     return 0;
-}   
+}
+
