@@ -300,35 +300,37 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/*[q]to find a number is prime or not*/
+// /*[q]to find a number is prime or not*/
 
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
-    int a, i = 2, isPrime = 1; 
+// int main() {
+//     int a, i = 2, isPrime = 1; 
 
-    printf("Enter a number: ");
-    scanf("%d", &a);  
+//     printf("Enter a number: ");
+//     scanf("%d", &a);  
 
-    if (a <= 1) {
-        printf("%d is not a prime number\n", a);
-        return 0;  
-    }
+//     if (a <= 1) {
+//         printf("%d is not a prime number\n", a);
+//         return 0;  
+//     }
 
-    while (i <= a / 2) { 
-        if (a % i == 0) {
-            isPrime = 0; 
-            break;
-        }
-        i++; 
-    }
+//     while (i <= a / 2) { 
+//         if (a % i == 0) {
+//             isPrime = 0; 
+//             break;
+//         }
+//         i++; 
+//     }
 
-    if (isPrime)
-        printf("%d is a prime number\n", a);
-    else
-        printf("%d is not a prime number\n", a);
+//     if (isPrime)
+//         printf("%d is a prime number\n", a);
+//     else
+//         printf("%d is not a prime number\n", a);
 
-    return 0;
-}
+//     return 0;
+// }
 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
