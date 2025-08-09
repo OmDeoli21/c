@@ -334,3 +334,18 @@
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include<stdio.h>
+int main(){
+    int a;
+    int n;
+    printf("enter a number : ");
+    scanf("%d",&n);
+    for(a = 0, n<=a, n++){ // for(initialisation, conditon, increment or decrement)
+        printf("%d",n);
+
+    }
+
+    return 0;
+}
