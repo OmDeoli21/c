@@ -335,19 +335,34 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// /*to print number from 0 to n using for while loop*/
 
+// #include<stdio.h>
+// int main(){
+//     int a;
+//     int n;
+//     printf("enter a number : ");
+//     scanf("%d",&n);
+//     for(a = 0; a<=n; a++){ // for(initialisation, conditon, increment or decrement)
+//         printf("%d \n",a);
 
-/*to print number from 0 to n using for while loop*/
+//     }
+//     return 0;
+// }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*program to print ‘n’ natural numbers in reverse order.*/
 
 #include<stdio.h>
 int main(){
-    int a;
-    int n;
-    printf("enter a number : ");
-    scanf("%d",&n);
-    for(a = 0; a<=n; a++){ // for(initialisation, conditon, increment or decrement)
-        printf("%d \n",a);
-
+    int input;
+    printf("enter a number : \t");
+    scanf("%d",&input);
+    for(int a = 0; a<=input; input--){
+        printf("%d \n",input);
     }
+
+
     return 0;
 }
