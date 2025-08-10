@@ -333,8 +333,11 @@
 // }
 
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+
+/*to print number from 0 to n using for while loop*/
 
 #include<stdio.h>
 int main(){
@@ -342,10 +345,9 @@ int main(){
     int n;
     printf("enter a number : ");
     scanf("%d",&n);
-    for(a = 0, n<=a, n++){ // for(initialisation, conditon, increment or decrement)
-        printf("%d",n);
+    for(a = 0; a<=n; a++){ // for(initialisation, conditon, increment or decrement)
+        printf("%d \n",a);
 
     }
-
     return 0;
 }
