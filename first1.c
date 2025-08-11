@@ -352,17 +352,20 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/*program to print ‘n’ natural numbers in reverse order.*/
+// /*program to print ‘n’ natural numbers in reverse order.*/
 
-#include<stdio.h>
-int main(){
-    int input;
-    printf("enter a number : \t");
-    scanf("%d",&input);
-    for(int a = 0; a<=input; input--){
-        printf("%d \n",input);
-    }
+// #include<stdio.h>
+// int main(){
+//     int input;
+//     printf("enter a number : \t");
+//     scanf("%d",&input);
+//     for(int a = 0; a<=input; input--){   //for(initialsation;condition;increment or decrement)
+//         printf("%d \n",input);
+//     }
 
 
-    return 0;
-}
+//     return 0;
+// }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
