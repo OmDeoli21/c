@@ -46,7 +46,7 @@
 // }
 
 
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 // q5. Write a C program that takes hours, minutes and seconds (declare as long int) as input,
@@ -76,7 +76,7 @@
 //     return 0;
 // }
 
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 // q6.Given the following pseudo code, write a program that executes it.
@@ -103,7 +103,7 @@
 // }
 
 
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 // q7.Write a program that reads a temperature in degrees Celsius and prints out the
@@ -120,7 +120,7 @@
 //}
 
 
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 // q8.Write a program that reads a temperature in degrees Celsius and prints out the
@@ -137,7 +137,7 @@
 //     return 0;
 // }
 
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 // q9.Write a C program that will calculate how much of a profit an investor will make. You
@@ -152,19 +152,46 @@
 // Also, you must display the dollar amount formatted to two decimal places. Place this statement
 // at the start of your program:
 
-#include<stdio.h>
-int main(){
-    float a,b,c;
-    printf("Enter the number of shares purchased: ");
-    scanf("%f",&a);
-    printf("Enter the price of stock per share: ");
-    scanf("%f",&b);
-    printf("Enter the price of stock per share NOW: ");
-    scanf("%f",&c);
-    printf("\n");
-    float profit=(a*c)-(a*b);
-    printf("You have made a profit of $ %.2f dollars since you bought %d shares of this stock.",profit,a);
-    return 0;
-}
+// #include<stdio.h>
+// int main(){
+//     float a,b,c;
+//     printf("Enter the number of shares purchased: ");
+//     scanf("%f",&a);
+//     printf("Enter the price of stock per share: ");
+//     scanf("%f",&b);
+//     printf("Enter the price of stock per share NOW: ");
+//     scanf("%f",&c);
+//     printf("\n");
+//     float profit=(a*c)-(a*b);
+//     printf("You have made a profit of $ %.2f dollars since you bought %d shares of this stock.",profit,a);
+//     return 0;
+// }
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// q1.Write a C program that prints out the following menu for a game (include the line of
+// asterisks (#) on top and $ bottom):
+// ###########################################################
+
+//                 Welcome!
+
+// Please choose a number from the following options:
+// 1. Play the game!
+// 2. Demo the game!
+// 3. Exit
+// $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+// #include <stdio.h>
+// int main() {
+//     printf("###########################################################\n\n");
+//     printf("\t\t\tWelcome!\n\n");
+//     printf("Please choose a number from the following options:\n");
+//     printf("1. Play the game!\n");
+//     printf("2. Demo the game!\n");
+//     printf("3. Exit\n");
+//     printf("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+//     return 0;
+//}
