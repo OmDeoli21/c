@@ -118,3 +118,28 @@
 //     printf("The temperature in degrees Fahrenheit: %.1f",(temp*9/5)+ 32);
 //     return 0;
 //}
+
+
+
+
+
+// q8.Write a program that reads a temperature in degrees Celsius and prints out the
+// corresponding temperature in degrees Fahrenheit. Declare constant variable cv=32 and
+// use it in the formula (F = (C * 9 / 5) + cv).
+
+// #include<stdio.h>
+// int main(){
+//     float temp;
+//     int cv = 32;
+//     printf("Enter temperature in degrees celsius: ");
+//     scanf("%f",&temp);
+//     printf("The temperature in degrees Fahrenheit: %.1f",(temp*9/5)+ cv);
+//     return 0;
+// }
+
+
+
+
+
+
+
