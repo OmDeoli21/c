@@ -140,6 +140,31 @@
 
 
 
+// q9.Write a C program that will calculate how much of a profit an investor will make. You
+// will need to get the following three inputs:
+//  the number of shares the investor purchased
+//  the price of the stock (per share) when the investor purchased it
+//  the price of the stock (per share) now
 
+// The formula to use: Profit = (# of shares * Current Price) – (# of shares * Purchase Price)
+// Output this message to the screen:
+// You have made a profit of $_____ dollars since you bought _____ shares of this stock.
+// Also, you must display the dollar amount formatted to two decimal places. Place this statement
+// at the start of your program:
+
+#include<stdio.h>
+int main(){
+    float a,b,c;
+    printf("Enter the number of shares purchased: ");
+    scanf("%f",&a);
+    printf("Enter the price of stock per share: ");
+    scanf("%f",&b);
+    printf("Enter the price of stock per share NOW: ");
+    scanf("%f",&c);
+    printf("\n");
+    float profit=(a*c)-(a*b);
+    printf("You have made a profit of $ %.2f dollars since you bought %d shares of this stock.",profit,a);
+    return 0;
+}
 
 
