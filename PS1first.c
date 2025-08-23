@@ -352,6 +352,22 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  
 /*[q]Write a program to print multiplication table of a given number n*/
+//WHILE LOOPS
+#include <stdio.h>
+int main(){
+    int a;
+    int m = 1;
+    printf("Type a number to get its multiplication table : ");
+    scanf("%d",&a);
+    while(m<=a){
+        printf("%d * %d = %d \n",a,m,a*m);
+        m++;
+        if(m==11){
+            break;
+        }
+    }
+    return 0;
+}
 
 
 

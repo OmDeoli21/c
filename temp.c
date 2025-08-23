@@ -195,3 +195,122 @@
 //     printf("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
 //     return 0;
 //}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// q2.Write C code to generate the results as shown below: Results:
+// =======Quizzes===============
+// Enter the score of the first quiz: 90
+// Enter the score of the second quiz: 75
+// Enter the score of the third quiz: 91
+// =======Mid-term==============
+// Enter the score of the mid-term: 80
+// =======Final=================
+// Enter the score of the final: 89
+// Quiz Total: 256
+// Mid-term: 80
+// Final: 89
+// ........................
+// Total: 425
+
+
+// #include <stdio.h>
+// int main() {
+//     int q1, q2, q3, mid, final, quiztotal, total;
+//     printf("Results:\n");
+//     printf("=======Quizzes===============\n");
+//     printf("Enter the score of the first quiz: ");
+//     scanf("%d", &q1);
+//     printf("Enter the score of the second quiz: ");
+//     scanf("%d", &q2);
+//     printf("Enter the score of the third quiz: ");
+//     scanf("%d", &q3);
+//     printf("=======Mid-term==============\n");
+//     printf("Enter the score of the mid-term: ");
+//     scanf("%d", &mid);
+//     printf("=======Final=================\n");
+//     printf("Enter the score of the final: ");
+//     scanf("%d", &final);
+//     quiztotal = q1 + q2 + q3;
+//     total = quiztotal + mid + final;
+//     printf("Quiz Total: %d\n", quiztotal);
+//     printf("Mid-term: %d\n", mid);
+//     printf("Final: %d\n", final);
+//     printf("........................\n");
+//     printf("Total: %d", total);
+
+//     return 0;
+//}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//q3.Get input of your name( as string), Register number(as string), address (as string), age in
+// years (Int), weight in kg (as float), height in meters (double), twelfth cgpa/percentage
+// (float read two decimal points only and display with one decimal point) from keyboard
+// and display the information as below:
+// Enter Name of Student: Surya
+// Roll Number: 522
+// Enter CGPA/percentage: 59.40
+// Name of Student: Surya
+// Roll Number: 522
+// Percentage Score Secured: 59.4%
+
+
+// #include <stdio.h>
+// int main() {
+//     char name[100], roll[100], add[100];
+//     int age;
+//     float wt, cgpa;
+//     double ht;
+//     printf("Enter Name of Student: ");
+//     scanf("%s",name);
+//     printf("Roll Number: ");
+//     scanf("%s",roll);
+//     printf("Enter Address: ");
+//     scanf("%s",add);
+//     printf("Enter Age in years: ");
+//     scanf("%d",&age);
+//     printf("Enter Weight in kg: ");
+//     scanf("%f",&wt);
+//     printf("Enter Height in meters: ");
+//     scanf("%lf",&ht);
+//     printf("Enter CGPA/percentage: ");
+//     scanf("%f", &cgpa);
+
+//     printf("Name of Student: %s\n",name);
+//     printf("Roll Number: %s\n", roll);
+//     printf("Percentage Score Secured: %.1f%%",cgpa);
+
+//     return 0;
+// }
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// [q1] C program to find avg for first five natural numbers:-
+
+// #include <stdio.h>
+// int main(){
+//     printf("Avg for first five natural numbers is %d", (1+2+3+4+5)/5);
+//     return 0;
+// }
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//[q2] C program to convert from celcius to farhenheit 
+
+
+#include<stdio.h>
+int main(){
+    float temp;
+    printf("Enter temperature in degrees celsius: ");
+    scanf("%f",&temp);
+    printf("The temperature in degrees Fahrenheit: %.1f",(temp*9/5)+ 32);
+    return 0;
+}
