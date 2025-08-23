@@ -350,25 +350,58 @@
 //  }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*Practice set 4 */
  
-/*[q]Write a program to print multiplication table of a given number n*/
-//WHILE LOOPS
+/*[q1]Write a program to print multiplication table of a given number n*/
+// //WHILE LOOPS
+// #include <stdio.h>
+// int main(){
+//     int a;
+//     int m = 1;
+//     printf("Type a number to get its multiplication table : ");
+//     scanf("%d",&a);
+//     while(m<=a){
+//         printf("%d * %d = %d \n",a,m,a*m);
+//         m++;
+//         if(m==11){
+//             break;
+//         }
+//     }
+//     return 0;
+// }
+
+
+//////////////////////////////////////////////
+
+
+// // //FOR LOOPS
+// #include <stdio.h>
+// int main(){
+//     int a;
+//     printf("Enter a number to get its multiplication table: ");
+//     scanf("%d",&a);
+//     for(int i=1;i<=10;i++){
+//         printf("%d * %d = %d\n",a,i,a*i);
+//     }
+//     return 0;
+// }
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//[q2]Write a program to print multiplication table of 10 in reversed order.
 #include <stdio.h>
 int main(){
     int a;
-    int m = 1;
-    printf("Type a number to get its multiplication table : ");
+    printf("Enter a number to get its multiplication table in reverse: ");
     scanf("%d",&a);
-    while(m<=a){
-        printf("%d * %d = %d \n",a,m,a*m);
-        m++;
-        if(m==11){
-            break;
-        }
+    for(int i = 10; i>=1 ; i--){
+        printf("%d * %d = %d\n",a,i,a*i);
     }
     return 0;
 }
-
 
 
 
