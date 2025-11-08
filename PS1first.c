@@ -510,18 +510,32 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/*Write a program to calculate the sum of the numbers occurring in the
-multiplication table of 8. (consider 8 x 1 to 8 x 10)*/
+// /*Write a program to calculate the sum of the numbers occurring in the
+// multiplication table of 8. (consider 8 x 1 to 8 x 10)*/
+
+// #include<stdio.h>
+// int main(){
+//     int a = 8;
+//     int b,fin=0;
+//     for(int i = 1;i<=10;i++){
+//         b = a*i;
+//         fin +=b;
+//     }
+//     printf("sum of the numbers occurring in the multiplication table of 8 = %d",fin);
+//     return 0;
+// }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*Write a program to calculate the factorial of a given number using a for loop*/
 
 #include<stdio.h>
 int main(){
-    int a = 8;
-    int b,fin=0;
-    for(int i = 1;i<=10;i++){
-        b = a*i;
-        fin +=b;
+    int a,b=1;
+    scanf("%d",&a);
+    for(int i = 1;i<=a;i++){
+       b=b*i;
     }
-    printf("sum of the numbers occurring in the multiplication table of 8 = %d",fin);
+    printf("the factorial of the given number is = %d",b);
     return 0;
 }
-
