@@ -407,22 +407,6 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-//[q5]. Write a program to sum first ten natural numbers using while loop
-
-// #include <stdio.h>
-// int main(){
-//     int a=1;
-//     while(a<=10){
-//         printf("%d\n",a);
-//         a++;
-//     }
-//     return 0;
-// }
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 // //[q6]Write a program to implement program 5 using ‘for’ and ‘do-while’ loop.
 // #include <stdio.h>
 // int main(){
@@ -449,15 +433,45 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/*Write a program to print multiplication table of a given number n*/
+// /*Write a program to print multiplication table of a given number n*/
+
+// #include<stdio.h>
+// int main(){
+//     int a;
+//     printf("Enter a number : ");
+//     scanf("%d",&a);
+//     for(int i=1;i<=10;i++){
+//         printf("%d x %d = %d\n",a,i,a*i);
+//     }
+//     return 0;
+// }
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*Write a program to print multiplication table of 10 in reversed order*/
+
+// #include<stdio.h>
+// int main(){
+//     int a = 10;
+//     for(int i=10;i>=1;i--){
+//         printf("%dx%d = %d\n",a,i,a*i);
+//     }
+//     return 0;
+// }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*Write a program to sum first ten natural numbers using while loop*/
 
 #include<stdio.h>
 int main(){
-    int a;
-    printf("Enter a number : ");
-    scanf("%d",&a);
-    for(int i=1;i<=10;i++){
-        printf("%d x %d = %d\n",a,i,a*i);
+    int i = 1;
+    int a=0;
+    while(i<=10){
+        a += i;
+        i++;
     }
+    printf("The sum of first 10 natural no. is = %d",a);
     return 0;
 }
