@@ -479,17 +479,34 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-/*Write a program to sum first ten natural numbers using dowhile loop*/
+// /*Write a program to sum first ten natural numbers using dowhile loop*/
 
-#include<stdio.h>
-int main(){
-    int i = 1;
-    int a = 0;
-    do{        
-        a+=i;
-        i++;
-    }while(i<=10);
-    printf("The sum of 10 natural no.s is = %d",a);
+// #include<stdio.h>
+// int main(){
+//     int i = 1;
+//     int a = 0;
+//     do{        
+//         a+=i;
+//         i++;
+//     }while(i<=10);
+//     printf("The sum of 10 natural no.s is = %d",a);
     
-    return 0;
-}
+//     return 0;
+// }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// /*Write a program to sum first ten natural numbers using for loop*/
+
+// #include<stdio.h>
+// int main(){
+//     int a=0;
+//     for(int i = 1;i<=10;i++){
+//         a+=i;
+//     }
+//     printf("The sum of 10 natural no.s is = %d",a);
+//     return 0;
+// }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
