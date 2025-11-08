@@ -303,14 +303,46 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//[q2] C program to convert from celcius to farhenheit 
+// //[q2] C program to convert from celcius to farhenheit 
+
+
+// #include<stdio.h>
+// int main(){
+//     float temp;
+//     printf("Enter temperature in degrees celsius: ");
+//     scanf("%f",&temp);
+//     printf("The temperature in degrees Fahrenheit: %.1f",(temp*9/5)+ 32);
+//     return 0;
+// }
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// [q1.] Given two numbers dividend and divisor, divide two numbers. The result of division should
+// truncate toward zero, which means losing its fractional part. For example, 8.345 would be
+// truncated to 8, and -2.7335 would be truncated to -2. Assume we are dealing with an environment
+// that could store dividend as signed long long integer and divisor as double.
+// Example
+// Input: dividend = 922337203685, divisor = 12.6
+// Output: 73201365371
+
+
+// #include<stdio.h>
+// int main(){
+//     int a,b;
+//     printf("ENter divedend")
+//     return 0;
+// }
+
+
+
+
 
 
 #include<stdio.h>
 int main(){
-    float temp;
-    printf("Enter temperature in degrees celsius: ");
-    scanf("%f",&temp);
-    printf("The temperature in degrees Fahrenheit: %.1f",(temp*9/5)+ 32);
-    return 0;
+float d = 1.5, D = 2.5;
+printf("%d%d",d++ + ++D);
+return 0;
 }
