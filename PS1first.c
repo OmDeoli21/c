@@ -527,15 +527,40 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/*Write a program to calculate the factorial of a given number using a for loop*/
+// /*Write a program to calculate the factorial of a given number using a for loop*/
 
-#include<stdio.h>
+// #include<stdio.h>
+// int main(){
+//     int a,b=1;
+//     scanf("%d",&a);
+//     for(int i = 1;i<=a;i++){
+//        b=b*i;
+//     }
+//     printf("the factorial of the given number is = %d",b);
+//     return 0;
+// }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*. Write a program to check whether a given number is prime or not using loops*/
+
+#include <stdio.h>
 int main(){
-    int a,b=1;
-    scanf("%d",&a);
-    for(int i = 1;i<=a;i++){
-       b=b*i;
+    int a;
+    int prime = 0;
+    scanf("%d", &a);
+    for (int i = 2; i < a; i++){
+        if (a % i == 0){
+            prime = 1;
+        }
     }
-    printf("the factorial of the given number is = %d",b);
+    if (prime){
+        printf("%d is not prime\n", a);
+    }
+    else{
+        printf("%d is prime\n", a);
+    }
     return 0;
 }
+
+
