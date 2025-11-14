@@ -542,25 +542,37 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/*. Write a program to check whether a given number is prime or not using loops*/
+// /*. Write a program to check whether a given number is prime or not using loops*/
 
-#include <stdio.h>
-int main(){
-    int a;
-    int prime = 0;
-    scanf("%d", &a);
-    for (int i = 2; i < a; i++){
-        if (a % i == 0){
-            prime = 1;
-        }
-    }
-    if (prime){
-        printf("%d is not prime\n", a);
-    }
-    else{
-        printf("%d is prime\n", a);
-    }
-    return 0;
-}
+// #include <stdio.h>
+// int main(){
+//     int a;
+//     int not_prime = 0;
+//     scanf("%d", &a);
+//     if(a==0 || a==1){
+//         not_prime=1;
+//     }
+//     else{
+//     for (int i = 2; i < a; i++){
+//         if (a % i == 0 && a!=2){
+//             not_prime = 1;
+//             break;
+//         }
+//     }
+//     if (not_prime){
+//         printf("%d is not prime\n", a);
+//     }
+//     else{
+//         printf("%d is prime\n", a);
+//     }
+//     return 0;
+// }
+// }
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 
 
